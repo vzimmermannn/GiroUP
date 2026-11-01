@@ -1,0 +1,8 @@
+# Conta Fácil
+.gradle/
+build/
+app/build/
+local.properties
+*.keystore
+*.jks
+.env

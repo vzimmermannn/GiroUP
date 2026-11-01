@@ -1,0 +1,49 @@
+Pessoal, segue o resumo do GiroUp para montarmos os slides e estudarmos o pitch.
+
+CONTEXTO
+GiroUp é o projeto da Equipe 4 para a Avaliação Integrativa 2026/2 de Sistemas de Informação da Universidade do Planalto Catarinense (UNIPLAC). O líder é Bernardo Stramosk Luckman, do 8º semestre. O desafio é o Gestor Inteligente de Pequenos Negócios.
+
+A IDEIA
+“Menos papel. Mais direção.” O aplicativo Android ajuda o pequeno empreendedor a entender quanto entrou, quanto saiu, quanto pode faltar no vencimento e quanto cobrar pelo trabalho.
+
+A DOR
+O empresário atende, vende e executa, mas pode não enxergar o custo completo nem ter tempo para interpretar as anotações. Nas cinco entrevistas apareceram caderno, variação de movimento, recebimentos posteriores e interesse em orientação. Não foram todas as empresas que relataram falta de caixa; a pesquisa é qualitativa.
+
+O PRINCIPAL DIFERENCIAL
+A calculadora inclui material, horas, estrutura, equipe, salários/provisões, taxas e margem. No exemplo fictício: material de R$ 70 e cobrança de R$ 100 não deixam R$ 30 de lucro. Com os custos informados, faltam aproximadamente R$ 4,82. O preço sugerido é R$ 134.
+
+OUTRO MOMENTO FORTE DO PITCH
+O caixa pode terminar o período positivo, mas faltar dinheiro antes do recebimento. No exemplo: R$ 4.100 disponíveis, conta de R$ 5.000 em dois dias e recebimento de R$ 2.200 em oito dias. O app mostra a falta de R$ 900 a tempo de negociar.
+
+FUNCIONALIDADES
+• Acesso simples com PIN local e demonstração separada.
+• Tour, tema claro/escuro e backup.
+• Entradas, despesas, contas a pagar/receber e orçamentos.
+• Preço certo e simulação de faturamento/resultado.
+• Previsões por vencimento, cenários e meta de reserva diária.
+• Câmera no Android para texto/códigos de boletos, caderno, recibos e estoque, sempre revisando antes de salvar.
+• Equipe e estoque com controles manuais.
+• Assistente local para interpretar os dados.
+• Links integrados para conteúdos de preço, fluxo de caixa e gestão no Sebrae. O curso abre no site externo; não há parceria oficial declarada.
+
+COMO VAI GERAR RECEITA
+Hipótese de 7 dias grátis, sem cartão, e R$ 29,99 por ANO. Pode ser à vista ou 11 parcelas de R$ 2,50 + uma de R$ 2,49. O pagamento do MVP é SIMULADO: sem cobrança real e sem cartão real.
+
+O QUE MOSTRAR NOS SLIDES
+1. Capa: GiroUp + UNIPLAC + curso + Equipe 4 + 2026/2.
+2. Dor do empreendedor e exemplo R$ 100/R$ 70.
+3. Aprendizados das cinco entrevistas.
+4. Como funciona: registrar/digitalizar → revisar → organizar → calcular → decidir.
+5. Calculadora e custo escondido.
+6. Caixa e antecipação do aperto.
+7. Câmera, tour e experiência simples.
+8. Cursos do Sebrae e assistente.
+9. Monetização.
+10. MVP funcional, limites e próximos passos.
+
+CUIDADOS NA FALA
+Não prometer lucro/economia garantidos, leitura perfeita de manuscrito ou pagamentos bancários. A IA generativa é opcional e precisa de servidor/chave; o modo disponível sem isso é análise local. O preço é hipótese comercial a validar. O código completo está sendo organizado em https://github.com/vzimmermannn/GiroUP para a equipe continuar evoluindo.
+
+FECHAMENTO
+“O GiroUp transforma números anotados em decisões: cobrar melhor, reservar dinheiro e agir antes que o caixa aperte.”
+

@@ -1,0 +1,39 @@
+name: GiroUp Android
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Testar cálculos e digitalização
+        run: |
+          node test-finance.cjs
+          node test-giroup.cjs
+          node server/test-server.mjs
+      - name: Instalar ferramentas Android
+        uses: android-actions/setup-android@v4
+      - name: Preparar SDK 35
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+      - name: Compilar APK
+        run: bash gradlew --no-daemon assembleDebug lintDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: GiroUp-Android-MVP
+          path: app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+
+
