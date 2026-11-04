@@ -17,3 +17,7 @@ html[data-theme=dark]{color-scheme:dark;--light:#17131f;--ink:#f0e9fa;--muted:#a
 .grid>*{min-width:0}.statrow{grid-template-columns:repeat(2,minmax(0,1fr))}.stat{min-width:0}.summarystrip{grid-template-columns:repeat(3,minmax(0,1fr))}.summarystrip .card{min-width:0}.summarystrip b{overflow-wrap:anywhere}.planlayout>*{min-width:0}@media(max-width:760px){.stat .value{font-size:clamp(17px,5vw,21px);overflow-wrap:anywhere}.hero .balance{font-size:clamp(30px,9.5vw,39px)}.herofoot{flex-wrap:wrap}.main{width:100%}.pricepreview{max-width:100%}.row{gap:9px}.rowvalue{white-space:normal;flex-shrink:0;max-width:49%}.summarystrip b{font-size:clamp(14px,4.1vw,17px)}}
 @media(max-width:760px){.planlayout .subscription{grid-row:1}.planlayout .planpitch{grid-row:2}}
 .bottomnav .navbutton,.bottomnav .navbutton *{touch-action:manipulation;-webkit-tap-highlight-color:transparent}.bottomnav .navbutton svg,.bottomnav .navbutton span{pointer-events:none}
+
+/* Avisos nunca podem bloquear a navegação, mesmo durante a transição. */
+#toast{pointer-events:none;visibility:hidden}
+#toast.visible{visibility:visible}
